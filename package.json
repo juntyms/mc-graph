@@ -6,6 +6,11 @@
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "@wordpress/api-fetch": "^7.1.0",
+    "@wordpress/components": "^28.1.0",
+    "@wordpress/element": "^6.1.0",
+    "@wordpress/i18n": "^5.1.0",
+    "@wordpress/scripts": "^27.0.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-scripts": "5.0.1",
@@ -13,10 +18,10 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build && mv build/static/js/main*.js build/static/js/main.js && mv build/static/css/*.css build/static/css/main.css",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "build": "wp-scripts build",
+    "start": "wp-scripts start",
+    "test": "wp-scripts test",
+    "eject": "wp-scripts eject"
   },
   "eslintConfig": {
     "extends": [
@@ -35,5 +40,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-plugin-wordpress": "^0.1.0",
+    "stylelint": "^16.6.1",
+    "stylelint-config-standard": "^36.0.0"
   }
 }

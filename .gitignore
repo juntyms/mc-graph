@@ -21,3 +21,9 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+/src/mc-graph.code-workspace
+.vscode
+.eslintrc.json
+stylelint.config.js
+/vendor/

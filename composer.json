@@ -1,0 +1,18 @@
+{
+    "name": "juntyms/mc-graph-plugin",
+    "description": "A wordpress plugin to display Rechart",
+    "type": "project",
+    "license": "GPL-2.0-or-later",
+    "autoload": {
+        "psr-4": {
+            "Juntyms\\McGraph\\": "./src"
+        }
+    },
+    "authors": [
+        {
+            "name": "Junn Eric Timoteo",
+            "email": "juntyms@gmail.com"
+        }
+    ],
+    "require": {}
+}
